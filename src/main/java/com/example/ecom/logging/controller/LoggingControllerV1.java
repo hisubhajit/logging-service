@@ -25,8 +25,8 @@ public class LoggingControllerV1 {
 
     @PostMapping("/entry")
     ResponseEntity<String> logEntry(@RequestBody LogModel logModel){
-        logger.info("Entry: LoggingControllerV1");
-        logEntryServiceV1.addLogInDB(logModel.getMessage());
+        logger.debug("Entry: LoggingControllerV1");
+        logEntryServiceV1.addLogInDB(logModel);
         return ResponseEntity.status(HttpStatus.ACCEPTED).body("Log is accepted to add in DB"+ LocalDateTime.now());
     }
 }

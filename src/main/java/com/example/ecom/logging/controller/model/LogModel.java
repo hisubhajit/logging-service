@@ -7,4 +7,9 @@ import lombok.Setter;
 @Setter
 public class LogModel {
     private String message;
+    private String applicationName;
+    private String logLevel;
+    private String threadName;
+    private String className;
+    private String loggerName;
 }
