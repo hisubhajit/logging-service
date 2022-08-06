@@ -1,4 +1,4 @@
-package com.example.ecom.booking.service;
+package com.example.ecom.logging;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

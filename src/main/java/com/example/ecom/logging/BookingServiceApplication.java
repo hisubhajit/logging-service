@@ -1,4 +1,4 @@
-package com.example.ecom.booking.service;
+package com.example.ecom.logging;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
